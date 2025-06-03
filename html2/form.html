@@ -36,5 +36,43 @@
       </p>
       <button>Submit</button>
     </form>
+
+    <h2>More inputs</h2>
+    <form action="">
+      <label for="agree">Agree</label>
+      <input type="checkbox" name="agree_tos" id="agree" checked />
+      <p>
+        <label for="s">Small</label>
+        <input type="radio" name="size" id="s" value="small" />
+        <label for="m">Medium</label>
+        <input type="radio" name="size" id="m" value="medium" />
+        <label for="l">Large</label>
+        <input type="radio" name="size" id="l" value="large" />
+      </p>
+      <p>
+        <label for="meal">Please sleect a meal type</label>
+        <select name="meal" id="meal">
+          <option value="fish">Fish</option>
+          <option value="vegeterian">Vegeterian</option>
+          <option value="steak">Steak</option>
+        </select>
+      </p>
+      <p>
+        <label for="cheese">Amount of cheese</label>
+        <input type="range" id="cheese" min="1" max="10" name="chesse_level" />
+      </p>
+      <p>
+        <label for="request">Any special request?</label>
+        <br />
+        <textarea
+          name="request"
+          id="request"
+          rows="10"
+          cols="40"
+          placeholder="Type something here"
+        ></textarea>
+      </p>
+      <button>Submit</button>
+    </form>
   </body>
 </html>
