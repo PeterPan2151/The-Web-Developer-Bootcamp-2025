@@ -1,6 +1,7 @@
 h3 {
     color: teal;
-    background-color: plum;
+    text-align: center;
+    background-color: papayawhip;
 }
 
 button {
@@ -9,6 +10,8 @@ button {
 }
 
 p {
+    text-align: center;
+    font-weight: bold;
     color: olive;
     background: orange;
 }
