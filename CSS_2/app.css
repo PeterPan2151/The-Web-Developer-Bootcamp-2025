@@ -31,3 +31,20 @@ span {
 span a {
     color: #457b9d;
 }
+
+button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+.post a {
+    text-decoration: none;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+section:nth-of-type(2n) {
+    background-color: #dfe8dc;
+}
